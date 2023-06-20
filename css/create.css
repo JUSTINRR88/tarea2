@@ -1,0 +1,173 @@
+.telefono {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    left: 0;
+    margin: auto;
+    grid-template-rows: 26rem 7.9rem 39.3rem 9.1rem 7.3rem;
+    background-color: var(--color4);
+}
+.header{
+    margin-top: 4.2rem;
+}
+.regresar{
+    width: 6.8rem;
+    height: 2.3rem;
+}
+
+.titulo-createAccount{
+    height: 4.1rem;
+    font-size: 2.645rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color6);
+    height: 6.9rem;
+}
+.tituloDatos1{
+    font-size: 2rem;;
+    font-weight: bold;
+    color: var(--color5);
+    padding-left: 2rem;
+}
+.entradaTexto1{
+    border: none;
+    width: 36rem;
+    height: 2.7rem;
+    margin-left: 2.3rem;
+    outline: none;
+    background-color: transparent;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color6);
+    width: 41.4rem;
+    height: 9.3rem;
+}
+.tituloDatos2{
+    font-size: 2rem;;
+    font-weight: bold;
+    color: var(--color5);
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+}
+.entradaTexto2{
+    border: none;
+    width: 36rem;
+    height: 2.7rem;
+    margin-left: 2.3rem;
+    outline: none;
+    background-color: transparent;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color6);
+    height: 8.1rem;
+    width: 41.4rem;
+}
+.tituloDatos3{
+    font-size: 2rem;;
+    font-weight: bold;
+    color: var(--color5);
+    padding-left: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.8rem;
+}
+.entradaTexto3{
+    border: none;
+    width: 36rem;
+    height: 2.7rem;
+    margin-left: 2.3rem;
+    outline: none;
+    background-color: transparent;
+}
+
+.repeatPassword{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color6);
+    height: 9.4rem;
+}
+.tituloDatos4{
+    font-size: 2rem;;
+    font-weight: bold;
+    color: var(--color5);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.entradaTexto4{
+    border: none;
+    width: 36rem;
+    height: 2.7rem;
+    outline: none;
+    margin-left: 2.3rem;
+    background-color: transparent;
+}
+.terminosCondiciones{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 2.6rem;
+    margin-top: 2.2rem;
+}
+.textoCheckbox{
+    font-size: 1.09rem;
+    padding-left: 0.8rem;
+    color: var(--color5);   
+    padding-top: 2rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sign-up{
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 2.5rem;
+    font-size: 2.4rem;
+    width: 37.9rem;
+    height: 6.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ayuda{
+    display: flex;
+    padding-top: 0.7rem;
+}
+.ayuda1{
+    font-size: 1.326rem;
+    padding-left: 9.5rem;
+}
+.ayuda2{
+    font-size: 1.525rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+/* CSS QUE SOLO FUNCIONA EN UN TELEFONO de 480px*/
+@media screen and (max-width: 480px) {
+    .telefono {
+        height: 100%;
+        position: absolute;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
